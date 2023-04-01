@@ -1,0 +1,35 @@
+@import "../dashboard/dashboard.component.scss";
+
+.card-container
+{
+    width: 300px;
+    height: 250px;
+
+    .card-image{
+        margin-left: 20px;
+        width: 88%;
+        height: 120px;
+        border-radius: 10px;
+    }
+
+    p{
+        height: 40px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: gray;
+    }
+
+    button{
+        background: $lightGreen;
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+        color: white;
+        border: transparent;
+        border-radius: 7px;
+    }
+
+    button:hover{
+        background: green;
+    }
+}

@@ -1,0 +1,16 @@
+<div class="background-image-container" [style.background-image]="'linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)),url('+selectedCityImage+')'">
+    <div class="subtitle">
+        -Discover the colorful world-
+    </div>
+    <div class="title">
+        {{selectedCity!=undefined?selectedCity:"NEW ADVENTURE"}}
+    </div>
+    <hr style="width:60%;">
+    <div class="text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor architecto odio, vitae harum adipisci alias in
+        voluptas reprehenderit aspernatur totam deserunt, dolore molestias aliquid hic inventore eligendi culpa ipsum
+        eos?
+    </div>
+
+    <button class="discover-button" routerLink="content">Discover Now</button>
+</div>

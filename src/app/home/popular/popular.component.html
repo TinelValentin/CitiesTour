@@ -1,0 +1,9 @@
+<div class="popular-container">
+    <div class="title">Most Popular</div>
+    <hr width="20%">
+    <div class="cards-container">
+        <div *ngFor="let city of cities">
+            <app-city-card [city]="city" (citySelected)="citySelected($event)"></app-city-card>
+        </div>
+    </div>
+</div>

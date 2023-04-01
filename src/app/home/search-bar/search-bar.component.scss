@@ -1,0 +1,25 @@
+@import "../dashboard/dashboard.component.scss";
+
+.search-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    .search-bar{
+        width: 450px;
+        height: 42px;
+        border-radius: 15px;
+        border: 1px solid rgb(189, 189, 189);
+        font-size: 20px;
+        text-align:justify;
+        text-indent: 30px;
+    }
+
+    label{
+        font-size: 25px;
+        color:  $lightGreen;
+        font-weight: 500;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
